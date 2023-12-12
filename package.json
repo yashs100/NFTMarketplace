@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@nomiclabs/hardhat-ethers": "^2.0.6",
     "@nomiclabs/hardhat-waffle": "^2.0.3",
     "assert": "^2.0.0",

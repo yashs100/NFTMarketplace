@@ -74,14 +74,11 @@ async function connectWebsite() {
     return (
       <div className="">
         <nav className="w-screen">
-          <ul className='flex items-end justify-between py-3 bg-transparent text-white pr-5'>
-          <li className='flex items-end ml-5 pb-2'>
+          <ul className='flex items-center justify-between ml-3.5 py-4 bg-transparent text-white pr-5'>
+            <li className='flex items-center ml-5'>
             <Link to="/">
-            <img src={fullLogo} alt="" width={120} height={120} className="inline-block -mt-2"/>
-            <div className='inline-block font-bold text-xl ml-2'>
-              NFT Marketplace
-            </div>
-            </Link>
+            <img src={fullLogo} alt="" width={180} height={180} className="inline-block"/>
+            </Link> 
           </li>
           <li className='w-2/6'>
             <ul className='lg:flex justify-between font-bold mr-10 text-lg'>
